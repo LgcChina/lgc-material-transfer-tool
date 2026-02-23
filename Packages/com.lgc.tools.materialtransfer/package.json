@@ -1,0 +1,22 @@
+{
+  "name": "com.lgc.tools.materialtransfer",
+  "displayName": "LGC_批量材质工具",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "材质批量复制转移到另一个同样物体，LilToon 材质批量生成",
+  "author": {
+    "name": "LgcChina",
+    "url": "https://github.com/LgcChina"
+  },
+  "vpmDependencies": {
+  "com.vrchat.avatars": "3.x.x"
+  },
+  "keywords": [ "VRChat", "material", "liltoon", "工具", "Unity" ],
+  "samples": [
+    {
+      "displayName": "示例场景与预设",
+      "description": "未包含示例场景与预设",
+      "path": "Samples~/QuickStart"
+    }
+  ]
+}
