@@ -80,10 +80,10 @@ public class MaterialTransferTool : EditorWindow
     private readonly string[] _blendModeNames = { "Normal (正常)", "Add (叠加)", "Screen (滤色)", "Multiply (正片叠底)" };
     private readonly string LIL_TOON_SHADER_KEY = "lilToon";
 
-    [MenuItem("LGC/材质工具")]
+    [MenuItem("LGC/LGC_批量材质工具")]
     public static void ShowWindow()
     {
-        GetWindow<MaterialTransferTool>("材质工具");
+        GetWindow<MaterialTransferTool>("LGC_批量材质工具");
     }
 
     private void OnEnable()
